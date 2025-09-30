@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Ejemplo HTML</title>
+</head>
+
+<body>
+    <table border="1">
+        <caption>Notas por materia</caption>
+        <thead>
+            <tr>
+                <th>Estudiante</th>
+                <th>Materia</th>
+                <th>Nota</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">Ana</td>
+                <td>Matemática</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td>Lengua</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td colspan="2">Promedio general</td>
+                <td>8.5</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <form action="#" method="get">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre">
+        <br><br>
+        <select name="opciones">
+            <option value="opcion1">Opcion 1</option>
+            <option value="opcion2">Opcion 2</option>
+        </select>
+    </form>
+
+    <p class="externo">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Suscipit ab cum qui tempore reprehenderit enim omnis consequuntur ea repellendus saepe?
+    </p>
+</body>
+
+</html>
